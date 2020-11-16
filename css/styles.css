@@ -106,8 +106,7 @@ video {
 }
 
 .hero-nav .logo a,
-.heronav,
-.nav-menu a {
+.hero-nav .nav-menu a {
   color: white;
 }
 
@@ -159,7 +158,7 @@ video {
 
 .hero-video {
   background-color: #000;
-  background-image: url("..?img/ocean.jpg");
+  background-image: url("..img/ocean.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -230,7 +229,7 @@ video {
   object-fit: cover;
 }
 
-.about-socail {
+.about-social {
   display: flex;
   justify-content: start;
 }
@@ -253,7 +252,7 @@ video {
 
 .footer-social a {
   color: black;
-  padding: 0.1rem;
+  padding: 1rem;
 }
 
 .footer-copyright {
@@ -270,10 +269,10 @@ video {
   .nav-menu {
     padding: 0.1rem;
   }
-  .na-item {
+  .nav-item {
     flex: 1 1;
   }
-  .nero-nav {
+  .hero-nav {
     padding-bottom: 1rem;
   }
   .hero-heading {
